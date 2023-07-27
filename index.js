@@ -18,7 +18,7 @@ app.use(express.json());
 
 // Settings
 const port = process.env.PORT || 4000;
-mongoose.set("strictQuery", false);
+mongoose.set("strictQuery", true);
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
