@@ -1,0 +1,10 @@
+.footerContainer {
+    width: auto;
+    height: 40px;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border : 2px solid red; */
+}
+

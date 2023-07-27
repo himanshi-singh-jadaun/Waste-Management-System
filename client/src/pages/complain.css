@@ -1,0 +1,63 @@
+.complainContainer {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid red; */
+    
+}
+
+.complainContainer::before {
+    content: "";
+    background-image: url('/src/images/complain_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 60px;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+}
+
+.mainBtn {
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: none;
+    background-color: #d11010;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.mainBtn:disabled {
+    cursor: not-allowed;
+}
+
+label {
+    font-weight: 600; 
+}

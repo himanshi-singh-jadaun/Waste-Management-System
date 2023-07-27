@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+.footer {
+  height: 1rem;
+  background-color: #323232;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+
+#date {
+  font-size: 1rem;
+}

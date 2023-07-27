@@ -1,0 +1,29 @@
+{
+  "name": "waste-management-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "index": "npm start",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run index\" \"npm run client\""
+  },
+  "author": "JEDolce",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mailgen": "^2.0.27",
+    "mongodb": "^5.7.0",
+    "mongoose": "^6.11.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^2.0.19",
+    "timeago.js": "^4.0.2"
+  }
+}

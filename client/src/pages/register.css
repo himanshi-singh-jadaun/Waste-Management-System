@@ -1,0 +1,61 @@
+.registerContainer {
+    height: 90vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* border : 2px solid red;  */
+}
+
+.registerContainer::before {
+    content: "";
+    background-image: url('/src/images/login_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+
+.inputContainer{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.inputContainer input {
+    width: 93%;
+}
+
+.RegisterBtn {
+    height: 80px;
+    /* border: 1px solid red; */
+}
+
+label {
+    font-size: 12px;
+}
+
+.checkRegister {
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* border: 1px solid black; */
+}
+
+/* input,select {
+    padding: 15px;
+    margin: 15px 0;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+} */
